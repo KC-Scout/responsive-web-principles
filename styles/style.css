@@ -1,0 +1,15 @@
+ /*
+
+You can make images responsive by specifcying the max-width: 100% (so its never larger than its parent container) AND specify height auto. It will maintain its aspect ratio. 
+
+ */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* 
+Responsive typography that has a dynamic width based on viewport size. No matter the viewport size the text will resize itself to be 30% of the viewport width. 
+*/
+#respTypo {
+    width: 30vw;
+}
